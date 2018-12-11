@@ -1,0 +1,164 @@
+// single line coment
+/* 
+ multi
+  line
+*/
+
+// data types 
+/* 
+string
+float 
+integer
+boolean
+null
+undefined
+Object { key, value }
+Date Wed Jan 27 2016 11:56:54 GMT-0700 (MST)
+*/
+
+// console.log('Hello World')
+
+// operator
+
+// console.log(1 + 1)
+// console.log(1 - 1)
+// console.log(Math.pow(2,3))
+// console.log((2 + 3 * 6) - 1 * 5)
+
+// Comparators
+
+// console.log(4 > 2)
+
+// != does not equal
+
+// && both sides to be true
+  
+// || one side has to be true
+
+// Variables
+
+// var name = 'Bob'
+// camel case
+// letter $ _
+//case sensitive
+// cannot have them be reserve words
+// var lastName = 'marley'
+
+// var balance = 1000
+// balance++ 
+// balance--
+// balance+= 1
+// balance -= 1
+// console.log(balance)
+
+// Strings
+// var greeting = "hello"
+// var planet = "world"
+
+// console.log(greeting + planet)
+// console.log(greeting + 32)
+// console.log(greeting + 3/2)
+// console.log(greeting + "Name: \t World")
+
+// console.log(greeting.length)
+// console.log(greeting.lenth > planet.length)
+// console.log(greeting.charAt(2))
+
+// var num = Number("1.89789")
+// console.log(num)
+// console.log(parseInt('1'))
+// console.log(parseFloat('1.2343'))
+// console.log(num.toStr())
+
+// console.log(num.toFixed(3))
+// console.log(num.toPrecision(2))
+
+// Math.random()
+// console.log((Math.random() * 7).toPrecision(3))
+// console.log(Math.min(2, 3, -4, 5))
+// console.log(Math.max(2, 3, -4, 5))
+// console.log(Math.round(3.14))
+// console.log(Math.floor(3.74))
+// console.log(Math.ceil(3.14))
+// console.log(Math.PI)
+// console.log(Math.E)
+
+// var arr = ["Marc", "Kira", "Henry"]
+// console.log(arr[2])
+// console.log(arr.indexOf("Kira"))
+// console.log(arr.join(" and "))
+// console.log(arr.includes("Marc"))
+
+// << ruby way to push into an array
+
+// console.log(arr.push("Green"))
+// console.log(arr)
+// console.log(arr.unshift("Green"))
+// console.log(arr)
+// console.log(arr.pop("Green"))
+// console.log(arr)
+// console.log(arr.slice (1))
+// console.log(arr)
+
+// console.log(arr.length)
+// console.log(arr.reverse())
+
+// for(var i = 0; i < arr.length; i++) {
+//   console.log(arr[i])
+// }
+
+// arr.forEach( function(element) {
+//   console.log(element)
+// })
+
+// // map
+
+// arr.map( function(a) {
+//   return a
+// }) 
+
+// arr.filter( function(a) {
+//   console.log(a)
+// })
+
+// arr.reduce(function(a, num) {
+//   return a + num
+// })
+
+// Object
+  // - hash key value pairs { }
+  // - Json key vaule pairs
+  // - Instantiated objects
+  //    var person = Person.new()
+
+// var person = { name: "bob", age: 36 }
+// console.log(person.name)
+// console.log(person.['name'])
+
+// console.log(person.name = 'Craig')
+
+// var people = {
+//   name: ['bob', 'joe', 'susie', 'jane']
+//   age: [2,3,4,5,6]
+// }
+// var cars = {
+//   car: [
+//     { make: 'ford', price: 123123},
+//     { make: 'toyota', price: 23434}
+//   ]
+// }
+
+// JSON javascript object notation
+
+// {
+//   "firstName": "john",
+//   "lastName": "wayne"
+// }
+
+// var person = JSON.parse(object)
+
+// console.log()
+
+// debugger is like pry for JavaScript
+
+****doc tab!!!!
